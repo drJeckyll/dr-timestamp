@@ -7,4 +7,10 @@ So all credits to:
 Harsh Karn- Author of Epoch Converter (ver. 2.0.1) - https://addons.mozilla.org/bg/firefox/addon/epochconverter/
 noir04 - Author of Timestamp Decoder (ver. 0.0.3) - https://addons.mozilla.org/bg/firefox/addon/timestamp-decoder/
 
-Very little original work here. Most is just a css adjustments.
+Very little original work here.
+
+* Added option for YYYY/MM/DD format
+* Auto focus input when popup open
+
+TODO:
+* Use extension popup for decoding timestamps instead of alert() message
