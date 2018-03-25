@@ -12,5 +12,12 @@ Very little original work here.
 * Added option for YYYY/MM/DD format
 * Auto focus input when popup open
 
-TODO:
+TODO
 * Use extension popup for decoding timestamps instead of alert() message
+
+HOWTO INSTALL
+* clone this repo
+* zip contents into single zip file
+* drag and drop zip file into Firefox addons page
+* confirm all warings
+* done
