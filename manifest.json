@@ -1,0 +1,41 @@
+{
+
+  "manifest_version": 2,
+  "name": "dr-timestamp",
+  "version": "0.0.1",
+
+  "description": "Convert epoch datetime to normal date format and vice versa and decode timestamp directly from page selection",
+  "homepage_url": "https://github.com/drJeckyll/dr-timestamp",
+  
+  "icons": {
+    "32": "icons/icon-32.png"
+  },  
+
+  "browser_action": {
+    "default_icon": "icons/icon-32.png",
+    "default_title": "dr-timestamp",
+    "default_popup": "popup/popup.html",
+    "browser_style": false
+  },
+
+  "options_ui": {
+    "page": "settings/options.html"
+  },
+
+  "background": {
+	"scripts": ["background.js"]
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "dr-timestamp@example.org"
+    }
+  },
+
+  "permissions": [
+  	"storage",
+  	"contextMenus",
+	"activeTab"
+  ]
+
+}

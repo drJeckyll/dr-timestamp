@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css"/>
+  </head>
+
+  <body>
+      <H5 class="head1">Current Datetime</H5>
+      <table id="dateTable1" cellpadding="0" border="0" cellspacing="0">
+      <tr><td class="labels">EPOCH: </td><td id="curepdate" class="dates"></td></tr>
+      <tr><td class="labels">GMT: </td><td id="curgmdate" class="dates"></td></tr>
+      <tr><td class="labels">LOCAL: </td><td id="curlocdate" class="dates"></td></tr>
+      </table>
+      
+      <H5 class="head1">Datetime To Convert</H5>
+      <!--p class="labels">Insert an epoch timestamp or date time in MM/DD/YYYY HH:MM:SS</p-->
+      
+      <input class="dateinput" type="text" id="indate" oninput="displayDate()" size="35" placeholder="epoch or MM/DD/YYYY HH24:MI:SS"></input>
+      <input type="radio" name="tz" id="radioGMT" value="GMT"><label class="radiolabels">GMT</label>
+      <input type="radio" name="tz" id="radioLOCAL" value="LOCAL" checked><label class="radiolabels">LOCAL</label>
+      
+      <table id="dateTable1" cellpadding="0" border="0" cellspacing="0">
+      <tr><td class="labels" id="newepdatelabel"></td><td id="newepdate" class="dates"></td></tr>
+      <tr><td class="labels" id="newgmdatelabel"></td><td id="newgmdate" class="dates"></td></tr>
+      <tr><td class="labels" id="newlocdatelabel"></td><td id="newlocdate" class="dates"></td></tr>
+      </table>
+      
+    <script src="popup.js"></script>
+  </body>
+
+</html>

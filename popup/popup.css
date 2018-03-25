@@ -1,0 +1,58 @@
+body {
+  /*border: 1.5px solid #CCCCCC;
+  border-radius:5px;*/
+  padding: 10px;
+
+  font-family: monospace;
+  font-size:100%;
+
+  /*letter-spacing: 0.5px;*/
+}
+
+h5 {
+  /*color:white;
+  background:#328732;*/
+  /*text-transform: uppercase;*/
+  /*text-indent: 2px;*/
+  padding: 2px 0;
+  margin:0%;
+  font-size:12px;
+  font-weight: bold;
+}
+
+.labels {
+  font-size:12px;
+  padding: 0px;
+  margin: 0px;
+  width: 55px;
+  padding-left: 2px;
+  /*font-weight: bold;*/
+}
+
+.radiolabels {
+  font-size:12px;
+}
+
+.dates {
+  font-size:12px;
+  font-family: monospace;
+  /*font-weight: bold;*/
+  margin:0px;
+}
+
+.dateinput {
+  margin-top:10px;
+  font-family: monospace;
+}
+
+
+table#dateTable1 {
+  padding-top:5px; 
+  padding-bottom:5px;
+}
+
+#dateTable1 tr td {
+  height:0px; 
+  border:0px; 
+  margin:0px;
+}
