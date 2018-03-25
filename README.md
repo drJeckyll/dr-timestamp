@@ -16,8 +16,13 @@ TODO
 * Use extension popup for decoding timestamps instead of alert() message
 
 HOWTO INSTALL
+
+Method 1. From releases link on top of the page
+* select latest xpi and install like every other extension
+
+Method 2: From current sourse
 * clone this repo
-* zip contents into single zip file
+* zip contents (only contents, no parent folder) into single zip file
 * drag and drop zip file into Firefox addons page
 * confirm all warings
 * done
